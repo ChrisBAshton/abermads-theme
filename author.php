@@ -107,8 +107,6 @@ $user = (isset($_GET['author_name'])) ? get_user_by('slug', $author_name) : get_
 
 <?php
 
-get_sidebar();
-
 get_footer();
 
 ?>
